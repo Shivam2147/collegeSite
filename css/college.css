@@ -230,3 +230,13 @@ r{
 l{
     font-size: 50px;
 }
+.reimg{
+    height: 450px;
+    width: 800px;
+
+}
+.r2img{
+    height:450px;
+    width: 800px;
+    position: relative;
+}
