@@ -1,5 +1,5 @@
-body{
-    margin: 0px;
+body{  
+    margin: 0%;
 }
 .line{
     height: 10px;
@@ -24,9 +24,7 @@ body{
     height: 600px;
     width: 100%;
     background-image: url("C:/Users/shivam/Desktop/new project/photos/02.jpg");
-    opacity: .4;
-    /*background: transparent;*/
-   position: absolute;
+    opacity: .2;
 }
 img{
     height: 600px;
@@ -86,7 +84,7 @@ img{
     /*display: inline-block;*/
     left: 700px;
     text-align: center;
-    
+    z-index: 10;
 }
 .h2manu{
     height: 54px;
@@ -104,37 +102,30 @@ img{
     border-bottom: solid 5px rgb(136, 130, 130);
 }
 .upper{
-    height: 450px;
-    width: 730px;
+    height: 525px;
+    width: 850px;
     position: absolute;
-    top: 350px;
-    left: 775px;
+    top: 300px;
+    left: 650px;
 }
 .upper:hover{
     transform: translate(-25px,-25px);
     opacity: .8;
     transition: 2s;
-}
-.upper2{
-    height: 420px;
-    width: 680px;
-    border: solid white 3px;   
-    position: absolute; 
-    left: 800px;
-    top: 365px;
+    height: 550px;
+    width: 900px;
 }
 .uptext{
     height: 25px;
     width: 400px;
     position: absolute;
-    left: 90px;
-    top: 400px;
+    left: 110px;
+    top: 430px;
     font-size: 40px;
     padding: 10px;
     box-sizing: border-box;
     font-family: arial ;
-    color: rgb(126, 86, 33);
-    text-align: center;
+    color: rgb(213, 157, 27);
 }
 .uptext2{
     height: 200px;
@@ -142,11 +133,51 @@ img{
     position: absolute;
     left: 100px;
     top: 480px;
-    text-align: center;
     font-size: 30px;
     padding: 20px;
     box-sizing: border-box;
     font-family: Bookman Old style;
-    color: rgb(56, 35, 7);
-    background-color:   ;
+    color:rgb(35, 35, 71) ;
+}
+hr{
+    border: solid 3px rgb(213, 157, 27);
+    align-items: flex-start;
+}
+.research{
+    height: 1000px;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+}
+.rimg{
+    height: 300px;
+    width: 400px;
+    margin-top:50px;
+    box-sizing: border-box;
+    position: absolute;
+}
+.rimg2{
+    height: 450px;
+    width: 625px;
+}
+.rimg2:hover{
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    transition: 2s;
+    opacity: .8 ;
+}
+.text{
+    width: 500px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    top: 525px;
+}
+.text2{
+    width: 500px;
+    height:400px;
+    background-color: black;
+    position: absolute;
+    top: 575px;
 }
