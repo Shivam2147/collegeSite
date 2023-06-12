@@ -172,7 +172,7 @@ hr{
     position: absolute;
     top: 525px;
     left: 50px;
-    color: rgb(213, 157, 27);
+    color: rgb(126, 89, 3);
     font-size: 30px;
     padding-top: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
@@ -207,7 +207,7 @@ r{
     box-sizing: border-box;
 }
 .research2{
-    height: 800px;
+    height: 1200px;
     width: 100%;
     background-color: rgb(35, 35, 71);
     position: absolute;
@@ -216,7 +216,7 @@ r{
 .r1img{
     height: 450px;
     width: 800px;
-    bottom: 450px;
+    bottom: 800px;
 }
 .rtext1{
     height: 110px;
@@ -233,10 +233,46 @@ l{
 .reimg{
     height: 450px;
     width: 800px;
+    background-color: red;
+    z-index: 5;
 
 }
 .r2img{
     height:450px;
     width: 800px;
     position: relative;
+}
+.upfoot{
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 3000px;
+}
+.lupfoot{
+    height: 100px;
+    width: 430px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+.l2up{
+        height: 130px;
+        width: 430px;
+        position: absolute;
+        top: 250px;
+        left: 80px;
+}
+.rupfoot{
+    height: 100px;
+    width: 550px;
+    position: absolute;
+    top: 80px;
+    left: 950px;
+}
+.r2up{
+    height: 150px;
+    width: 290px;
+    position: absolute;
+    top: 50px;
+    left: 655px;
 }
