@@ -78,7 +78,7 @@ img{
 .header2{
     width:795px;
     margin: 0px 40px 40px 20px;
-    margin-top: -10%;
+    margin-top: -9%;
     position: absolute;
     padding-top: 102px;
     /*display: inline-block;*/
@@ -146,13 +146,12 @@ hr{
 .research{
     height: 1000px;
     width: 100%;
-    background-color: red;
     position: absolute;
 }
 .rimg{
     height: 300px;
     width: 400px;
-    margin-top:50px;
+    margin-top:60px;
     box-sizing: border-box;
     position: absolute;
 }
@@ -161,8 +160,8 @@ hr{
     width: 625px;
 }
 .rimg2:hover{
-    height: 500px;
-    width: 800px;
+    height: 475px;
+    width: 650px;
     position: absolute;
     transition: 2s;
     opacity: .8 ;
@@ -170,14 +169,64 @@ hr{
 .text{
     width: 500px;
     height: 50px;
-    background-color: blue;
     position: absolute;
     top: 525px;
+    left: 50px;
+    color: rgb(213, 157, 27);
+    font-size: 30px;
+    padding-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
 }
 .text2{
     width: 500px;
     height:400px;
-    background-color: black;
     position: absolute;
     top: 575px;
+    color: rgb(35, 35, 71);
+    left: 50px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text3{
+    height: 100px;
+    width: 750px;
+    position: absolute;
+    left: 700px;
+    top: 130px;
+    box-sizing: border-box;
+}
+r{
+    font-size: 30px;
+}
+.text4{
+    height: 100px;
+    width: 750px;
+    position: absolute;
+    left: 700px;
+    top: 500px;
+    box-sizing: border-box;
+}
+.research2{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(35, 35, 71);
+    position: absolute;
+    top: 1800px;
+}
+.r1img{
+    height: 450px;
+    width: 800px;
+    bottom: 450px;
+}
+.rtext1{
+    height: 110px;
+    width: 600px;
+    position: absolute;
+    left: 850px;
+    top: 130px;
+    color: white;
+    box-sizing: border-box;
+}
+l{
+    font-size: 50px;
 }
