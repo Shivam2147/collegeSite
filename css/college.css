@@ -125,7 +125,7 @@ img{
 }
 .uptext{
     height: 25px;
-    width: 150px;
+    width: 400px;
     position: absolute;
     left: 90px;
     top: 400px;
@@ -134,18 +134,19 @@ img{
     box-sizing: border-box;
     font-family: arial ;
     color: rgb(126, 86, 33);
+    text-align: center;
 }
 .uptext2{
     height: 200px;
     width: 400px;
     position: absolute;
-    left: 90px;
-    top: 470px;
+    left: 100px;
+    top: 480px;
     text-align: center;
     font-size: 30px;
     padding: 20px;
     box-sizing: border-box;
     font-family: Bookman Old style;
     color: rgb(56, 35, 7);
-    background-color: red;
+    background-color:   ;
 }
