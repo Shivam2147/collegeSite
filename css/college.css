@@ -257,7 +257,7 @@ l{
     top: 3000px;
 }
 .video{
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-color: RED;
     margin-bottom: 2px;
@@ -266,8 +266,8 @@ l{
 }
 .backvideo{
     width: 100%;
-    height: 500px;
-    margin-bottom: 5px;
+    height: 600px;
+    margin-top: -5px;
 }
 .college{
     height: 50px;
