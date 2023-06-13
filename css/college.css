@@ -103,6 +103,7 @@ img{
 .h2manu:hover{
     background-color: rgb(211, 203, 203);
     border-bottom: solid 5px rgb(136, 130, 130);
+    position: fixed;
 }
 .upper{
     height: 525px;
