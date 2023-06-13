@@ -84,10 +84,10 @@ img{
     margin-top: -9%;
     position: absolute;
     padding-top: 102px;
-    /*display: inline-block;*/
     left: 700px;
     text-align: center;
     z-index: 10;
+    
 }
 .h2manu{
     height: 54px;
@@ -99,6 +99,8 @@ img{
     padding: 15px;
     box-sizing: border-box;
     font-size: 15px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
 }
 .h2manu:hover{
     background-color: rgb(211, 203, 203);
@@ -259,15 +261,13 @@ l{
 .video{
     height: 600px;
     width: 100%;
-    background-color: RED;
-    margin-bottom: 2px;
-    position: sticky;
-    box-sizing: border-box;
+    background-color: red;
+    margin-top: 0%;
 }
 .backvideo{
     width: 100%;
-    height: 600px;
-    margin-top: -5px;
+    height: 100%;
+    object-fit: cover;
 }
 .college{
     height: 50px;
