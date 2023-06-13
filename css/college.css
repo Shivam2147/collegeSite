@@ -284,13 +284,13 @@ l{
     height: 600px;
     width: 100%;
     background-color: red;
-    margin-top: 0px;
     box-sizing: border-box;
 }
 .backvideo{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    margin-top: -5px;
 }
 .college{
     height: 50px;
