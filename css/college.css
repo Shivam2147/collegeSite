@@ -270,6 +270,7 @@ l{
     position: absolute;
     top: 900px;
     box-shadow: black 20px 30px -10px;
+    z-index: 10;
 }
 .rtext3{
     height: 110px;
@@ -304,7 +305,137 @@ l{
 .footer{
     height: 200px;
     width: 100%;
-    color:red;
+    background-color: red;
     position: absolute;
-    top: 1500px;
+    top: 3800px;
+}
+.fleft1{
+    height: 100px;
+    width:100px;
+    position: absolute;
+    margin:20px;
+    float: left;
+    box-sizing:border-box;
+}
+.img3{
+    height: 150px;
+    width:150px;
+}
+.img3:hover{
+    box-shadow: inset 0px 0px 12px 12px white;
+    border-radius: 50%;
+    transition: 1s;
+}
+.fleft2{
+    height: 150px;
+    float: left;
+    margin: 35px 20px 0px 180px;
+    width: 300px;
+    font-size: 40px;
+    padding: 10px;
+    font-family: Bodoni MT Black;
+    box-sizing: border-box;
+    color: white;
+}
+.fright{
+    height: 200px;
+    width:300px;
+    background-color: blue;
+    float: right;
+    color: black;
+    padding-top: 40px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.facebook{
+    height: 45px;
+    width: 130px;
+    background-color:blue;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 45px;
+    box-sizing: border-box;
+    float: right;
+    padding-top: 5px;
+    border-radius: 0.6rem;
+}
+w{
+    margin-left: 35px;
+    position: absolute;
+    top: 11px;
+    color: rgb(49, 50, 50);
+}
+.facebook:hover{
+    border-radius: 0.6rem;
+    background-color: gray;
+}
+.icon{
+    height: 2em;
+    width: 2em;
+    float: left;
+    background-color: white;
+}
+.youtube{
+    height: 45px;
+    width: 130px;
+    background-color:blue;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 90px;
+    box-sizing: border-box;
+    float: right;
+    padding-top: 5px;
+    border-radius: 0.6rem;
+}
+.youtube:hover{
+    border-radius: 0.6rem;
+    background-color: gray;
+}
+.twitter{
+    height: 45px;
+    width: 130px;
+    background-color:blue;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 45px;
+    box-sizing: border-box;
+    float: right;
+    padding-top: 5px;
+    border-radius: 0.6rem;
+}
+.twitter:hover{
+    border-radius: 0.6rem;
+    background-color: gray;
+}
+.linkin{
+    height: 45px;
+    width: 130px;
+    background-color:blue;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 90px;
+    box-sizing: border-box;
+    float: right;
+    padding-top: 5px;
+    border-radius: 0.6rem;
+}
+.linkin:hover{
+    border-radius: 0.6rem;
+    background-color: gray;
+}
+.instagram{
+    height: 45px;
+    width: 130px;
+    background-color:blue;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 45px;
+    box-sizing: border-box;
+    float: right;
+    padding-top: 5px;
+    border-radius: 0.6rem;
+}
+.instagram:hover{
+    border-radius: 0.6rem;
+    background-color: gray;
 }
