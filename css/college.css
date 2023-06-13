@@ -99,8 +99,6 @@ img{
     padding: 15px;
     box-sizing: border-box;
     font-size: 15px;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
 }
 .h2manu:hover{
     background-color: rgb(211, 203, 203);
