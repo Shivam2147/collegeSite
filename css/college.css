@@ -370,7 +370,10 @@ w{
     height: 2em;
     width: 2em;
     float: left;
-    background-color: white;
+}
+.icon:hover{
+    border-radius: 0.6rem;
+    background-color: gray;
 }
 .youtube{
     height: 45px;
