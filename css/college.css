@@ -305,7 +305,6 @@ l{
 .footer{
     height: 200px;
     width: 100%;
-    background-color: red;
     position: absolute;
     top: 3800px;
 }
@@ -335,12 +334,11 @@ l{
     padding: 10px;
     font-family: Bodoni MT Black;
     box-sizing: border-box;
-    color: white;
+    color: black;
 }
 .fright{
     height: 200px;
     width:300px;
-    background-color: blue;
     float: right;
     color: black;
     padding-top: 40px;
@@ -350,7 +348,6 @@ l{
 .facebook{
     height: 45px;
     width: 130px;
-    background-color:blue;
     position: absolute;
     margin-left: 600px;
     margin-top: 45px;
@@ -378,7 +375,6 @@ w{
 .youtube{
     height: 45px;
     width: 130px;
-    background-color:blue;
     position: absolute;
     margin-left: 600px;
     margin-top: 90px;
@@ -394,7 +390,6 @@ w{
 .twitter{
     height: 45px;
     width: 130px;
-    background-color:blue;
     position: absolute;
     margin-left: 800px;
     margin-top: 45px;
@@ -410,7 +405,6 @@ w{
 .linkin{
     height: 45px;
     width: 130px;
-    background-color:blue;
     position: absolute;
     margin-left: 800px;
     margin-top: 90px;
@@ -426,7 +420,6 @@ w{
 .instagram{
     height: 45px;
     width: 130px;
-    background-color:blue;
     position: absolute;
     margin-left: 1000px;
     margin-top: 45px;
